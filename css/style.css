@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+body {
+	margin: 20px;
+	padding: 20px;
+	line-height: 1;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	background-color: #ecebe7;
+	color: #555;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.title {
+	margin: 0;
+	margin-bottom: 12px;
+	padding: 0;
+	font-size: 2.8em;
+	font-weight: 300;
+	color: #555;
+}
+.name {
+	margin-bottom: 28px;
+	font-size: 1em;
+	font-weight: 200;
+}
+.container {
+	margin-top: 35px;
+	min-width: 440px;
+}
+.controller {
+	padding-top: 20px;
+}
+.controller li {
+	display: inline-block;
+	margin-left: 8px;
+	vertical-align: middle;
+}
+.controller li:first-child {
+	margin-left: 0;
+}
+.controller li a {
+	display: block;
+	width: 20px;
+	height: 4px;
+	background-color: #fff;
+	border-radius: 2px;
+	transition: all 0.3s;
+}
+.controller li.on a {
+	height: 20px;
+	background-color: #ffcf3b;
+	border-radius: 50%;
+}
+.gallery {
+	position: relative;
+	margin-top: 30px;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+.gallery ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	width: 2400px;
+	list-style: none;
+	transition: left 0.4s;
+}
+.gallery li {
+	float: left;
+	width: 400px;
+	height: 400px;
+}
+.gallery img {
+	max-width: 100%;
+	height: auto;
+}
